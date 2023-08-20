@@ -3,7 +3,7 @@ const strong = document.querySelectorAll("strong");
 	for (let i of strong) {
 		i.className = "green";
 	}
-	console.log(strong)
+	// console.log(strong)
 }
 
 
