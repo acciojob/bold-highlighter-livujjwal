@@ -1,7 +1,7 @@
 function highlight() {
 const strong = document.querySelectorAll("strong");
 	for (let i of strong) {
-		i.color = "green";
+		i.style.color = "green";
 	}
 }
 
@@ -9,7 +9,7 @@ const strong = document.querySelectorAll("strong");
 function return_normal() {
    const strong = document.querySelectorAll("strong");
 	for (let i of strong) {
-		i.color = "black";
+		i.className = "black";
 	}
 } 
 }
