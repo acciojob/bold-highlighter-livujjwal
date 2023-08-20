@@ -1,12 +1,15 @@
 function highlight() {
-    //Write your code here
-
-
+const strong = document.querySelectorAll("strong");
+	for (let i of strong) {
+		i.color = "green";
+	}
 }
 
 
 function return_normal() {
-    //Write your code here
-
-    
+   const strong = document.querySelectorAll("strong");
+	for (let i of strong) {
+		i.color = "black";
+	}
+} 
 }
